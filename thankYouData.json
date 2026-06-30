@@ -1,0 +1,83 @@
+{
+  "recipients":
+  [
+    {
+    "accessCode":"star59",
+    "name":"Beatriz Watson",
+    "color":"#6F4E37",
+    "audio":"bea.mp3"
+    },
+    {
+      "accessCode":"darma1022",
+      "name":"Noemi and Jordan Rodriguez",
+      "color":"red",
+      "audio":"noemi1.mp3"
+    },
+    {
+      "accessCode":"grasslands225",
+      "name": "Sarene and Kyle McNally",
+      "color": "pink",
+      "audio": "serene.mp3"
+    },
+    {
+      "accessCode":"jokes259",
+      "name":"Muzahem and Renee Samaru",
+      "color":"blue",
+      "audio":"muzahem.mp3"
+    },
+    {
+      "accessCode":"helloWorld56999",
+      "name":"Fareed and Eddie",
+      "color":"blue",
+      "audio":"fareed.mp3"
+    },
+    {
+      "accessCode":"chatGPT1522",
+      "name":"Ulises and Debbie Bella",
+      "color":"purple",
+      "audio":"ulises.mp3"
+    },
+    {
+      "accessCode":"JokersWild12111",
+      "name":"Dr. Nazeeh Aranki",
+      "color":"blue",
+      "audio":"nazeeh.mp3"
+    },
+    {
+      "accessCode":"StrawberryPie16999",
+      "name":"Abed Elabour",
+      "color":"blue",
+      "audio":"abed.mp3"
+    },
+    {
+      "accessCode":"bag898",
+      "name":"Ayman Obeid",
+      "color":"blue",
+      "audio":"ayman.mp3"
+    },
+    {
+      "accessCode":"kate959",
+      "name":"Jacqueline Obeid",
+      "color":"red",
+      "audio":"jacqueline.mp3"
+    },
+    {
+      "accessCode":"Spade1219",
+      "name":"Junior Obeid",
+      "color":"blue",
+      "audio":"jr.mp3"
+    },
+    {
+      "accessCode":"Medco222",
+      "name":"Dr. Masad and Joyce Arbid",
+      "color":"purple",
+      "audio":"masad.mp3"
+    },
+       {
+      "accessCode":"christmas88",
+      "name":"Susan Tantee",
+"color": "#8B0000",
+      "audio":"susan.mp3"
+    }
+  ]
+}
