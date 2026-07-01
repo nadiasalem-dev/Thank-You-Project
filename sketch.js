@@ -36,11 +36,15 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-setupLayout();
-  setTimeout(() => {
+setTimeout(() => {
   resizeCanvas(windowWidth, windowHeight);
   setupLayout();
 }, 250);
+
+setTimeout(() => {
+  resizeCanvas(windowWidth, windowHeight);
+  setupLayout();
+}, 750);
 let params = new URLSearchParams(window.location.search);
 code = params.get("accessCode");
   currentRecipient = thankYouFile.recipients.find(
