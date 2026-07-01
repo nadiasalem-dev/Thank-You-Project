@@ -36,7 +36,11 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+setupLayout();
+  setTimeout(() => {
+  resizeCanvas(windowWidth, windowHeight);
   setupLayout();
+}, 250);
 let params = new URLSearchParams(window.location.search);
 code = params.get("accessCode");
   currentRecipient = thankYouFile.recipients.find(
@@ -56,10 +60,7 @@ if (!currentRecipient) {
     isPlaying = false;
   });
 }
-setTimeout(() => {
-  resizeCanvas(windowWidth, windowHeight);
-  setupLayout();
-}, 250);
+
 function setupLayout() {
   heights = [];
 
