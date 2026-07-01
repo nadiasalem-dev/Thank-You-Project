@@ -56,7 +56,10 @@ if (!currentRecipient) {
     isPlaying = false;
   });
 }
-
+setTimeout(() => {
+  resizeCanvas(windowWidth, windowHeight);
+  setupLayout();
+}, 250);
 function setupLayout() {
   heights = [];
 
